@@ -19,7 +19,7 @@ public class DropBoxServices {
 
     // Constructor with injected access token
     @Value("${dropbox.api-key}")
-    String ACCESS_TOKEN = "sl.CBdhiDb4NpXeR39_Jufp5dsLKm3Mc6rqHqj97ghqXcB-OE_b-vhIb0NOeR6LJi_SBlZCT3lvEycZ1chqfyXRalEhhokOuqyoQQHVgfydWTM4kvBirMhjhOjEHZlNpXCknsylje4wq-BdgTE";
+    private String ACCESS_TOKEN;
     public DropBoxServices() {
 
           // Use your token
