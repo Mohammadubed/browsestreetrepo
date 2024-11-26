@@ -1,0 +1,23 @@
+.textFeilds{
+    padding-top: 5%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: fit-content;
+}
+
+
+.button{
+    position: relative;
+    display: flex;
+    top: -0%;
+    flex-direction: row;
+    left: 7%;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+  
